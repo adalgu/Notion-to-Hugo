@@ -1,4 +1,4 @@
-baseURL = "https://gunn.kim/"
+baseURL = "https://adalgu.github.io/Notion-to-Hugo"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "DoIt"

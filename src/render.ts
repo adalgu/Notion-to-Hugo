@@ -1,5 +1,5 @@
 import fs from "fs-extra";
-import { Client, isFullUser, iteratePaginatedAPI } from "@notionhq/client";
+import { Client, iteratePaginatedAPI } from "@notionhq/client";
 import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import { NotionToMarkdown } from "./markdown/notion-to-md";
 import YAML from "yaml";
@@ -56,6 +56,7 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
     date: page.created_time,
     lastmod: page.last_edited_time,
     draft: false,
+    authors: ["Notion"], // 기본 작성자 설정
   };
 
   // set featuredImage
@@ -134,15 +135,6 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
         },
       )) {
         switch (result.type) {
-          case "people":
-            frontMatter[property] = frontMatter[property] || [];
-            if (isFullUser(result.people)) {
-              const fm = frontMatter[property];
-              if (Array.isArray(fm) && result.people.name) {
-                fm.push(result.people.name);
-              }
-            }
-            break;
           case "rich_text":
             frontMatter[property] = frontMatter[property] || "";
             frontMatter[property] += result.rich_text.plain_text;
@@ -153,26 +145,6 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
             break;
         }
       }
-    }
-  }
-
-  // set default author (skip if retrieval fails)
-  if (
-    frontMatter.authors == null &&
-    page.last_edited_by &&
-    page.last_edited_by.id
-  ) {
-    try {
-      const response = await notion.users.retrieve({
-        user_id: page.last_edited_by.id,
-      });
-      if (response.name) {
-        frontMatter.authors = [response.name];
-      }
-    } catch (error) {
-      console.warn(`Failed to retrieve user with id ${page.last_edited_by.id}`);
-      // Set a default author name instead of failing
-      frontMatter.authors = ["Unknown Author"];
     }
   }
 

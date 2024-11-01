@@ -1,12 +1,6 @@
 import fs from "fs-extra";
-import {
-  Client,
-  isFullUser,
-  iteratePaginatedAPI,
-} from "@notionhq/client";
-import {
-  PageObjectResponse,
-} from "@notionhq/client/build/src/api-endpoints";
+import { Client, isFullUser, iteratePaginatedAPI } from "@notionhq/client";
+import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import { NotionToMarkdown } from "./markdown/notion-to-md";
 import YAML from "yaml";
 import { sh } from "./sh";
@@ -162,8 +156,12 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
     }
   }
 
-  // set default author
-  if (frontMatter.authors == null) {
+  // set default author (skip if retrieval fails)
+  if (
+    frontMatter.authors == null &&
+    page.last_edited_by &&
+    page.last_edited_by.id
+  ) {
     try {
       const response = await notion.users.retrieve({
         user_id: page.last_edited_by.id,
@@ -172,7 +170,9 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
         frontMatter.authors = [response.name];
       }
     } catch (error) {
-      console.warn(`[Warning] Failed to get author name for ${page.id}`);
+      console.warn(`Failed to retrieve user with id ${page.last_edited_by.id}`);
+      // Set a default author name instead of failing
+      frontMatter.authors = ["Unknown Author"];
     }
   }
 

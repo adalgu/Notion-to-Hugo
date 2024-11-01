@@ -1,4 +1,4 @@
-baseURL = "https://datarecipe.notion.site/Notion-DoIt-1eafeafea06f4504a4a1a0d9e89fd2d5"
+baseURL = "http://localhost"
 languageCode = "en-us"
 title = "HEY!!! My New Hugo Site"
 theme = "DoIt"

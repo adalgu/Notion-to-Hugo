@@ -1,9 +1,7 @@
-baseURL = "https://adalgu.github.io/Notion-to-Hugo/"
-title = "My New Hugo Site"
+baseURL = "https://adalgu.github.io/"
+title = "HEY!!! My New Hugo Site"
 theme = "DoIt"
-defaultContentLanguage = "en"
-languageCode = "en"
-hasCJKLanguage = true
+languageCode = "en-us"
 
 # Post frontmatter config
 [frontmatter]
@@ -13,13 +11,10 @@ hasCJKLanguage = true
 [menu]
   [[menu.main]]
     identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Posts"
     url = "/posts/"
-    # title will be shown when you hover on this menu link
     title = ""
     weight = 1
   [[menu.main]]

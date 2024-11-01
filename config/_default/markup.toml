@@ -1,36 +1,18 @@
 defaultMarkdownHandler = 'goldmark'
-[asciidocExt]
-backend = 'html5'
-extensions = []
-failureLevel = 'fatal'
-noHeaderOrFooter = true
-preserveTOC = false
-safeMode = 'unsafe'
-sectionNumbers = false
-trace = false
-verbose = false
-workingFolderCurrent = false
-[asciidocExt.attributes]
 [goldmark]
 [goldmark.extensions]
 definitionList = true
 footnote = true
 linkify = true
-linkifyProtocol = 'https'
 strikethrough = true
 table = true
 taskList = true
 typographer = true
-[goldmark.extensions.passthrough]
-enable = true
-[goldmark.extensions.passthrough.delimiters]
-block = [['\[', '\]']]
-inline = [['\(', '\)']]
 [goldmark.parser]
 autoHeadingID = true
 autoHeadingIDType = 'github'
 [goldmark.parser.attribute]
-block = false
+block = true
 title = true
 [goldmark.renderer]
 hardWraps = false

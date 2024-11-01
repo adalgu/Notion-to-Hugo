@@ -56,7 +56,6 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
     date: page.created_time,
     lastmod: page.last_edited_time,
     draft: false,
-    authors: ["Notion"], // 기본 작성자 설정
   };
 
   // set featuredImage
@@ -75,6 +74,8 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
     }
   }
 
+  let hasAuthor = false; // 작성자 정보 존재 여부 추적
+
   // map page properties to front matter
   for (const property in page.properties) {
     const id = page.properties[property].id;
@@ -88,12 +89,26 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
           frontMatter[property] = response.checkbox;
           break;
         case "select":
-          if (response.select) frontMatter[property] = response.select.name;
+          if (response.select) {
+            frontMatter[property] = response.select.name;
+            // Author 또는 작성자 관련 속성인 경우
+            if (property.toLowerCase().includes("author")) {
+              frontMatter.authors = [response.select.name];
+              hasAuthor = true;
+            }
+          }
           break;
         case "multi_select":
           frontMatter[property] = response.multi_select.map(
             (select) => select.name,
           );
+          // Author 또는 작성자 관련 속성인 경우
+          if (property.toLowerCase().includes("author")) {
+            frontMatter.authors = response.multi_select.map(
+              (select) => select.name,
+            );
+            hasAuthor = true;
+          }
           break;
         case "email":
           if (response.email) frontMatter[property] = response.email;
@@ -138,6 +153,12 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
           case "rich_text":
             frontMatter[property] = frontMatter[property] || "";
             frontMatter[property] += result.rich_text.plain_text;
+            // Author 또는 작성자 관련 속성인 경우
+            if (property.toLowerCase().includes("author")) {
+              frontMatter.authors = [result.rich_text.plain_text];
+              hasAuthor = true;
+            }
+            break;
           // ignore these
           case "relation":
           case "title":
@@ -146,6 +167,11 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
         }
       }
     }
+  }
+
+  // 작성자 정보가 없는 경우에만 기본값 설정
+  if (!hasAuthor) {
+    frontMatter.authors = ["Notion"];
   }
 
   // save metadata

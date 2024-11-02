@@ -8,9 +8,9 @@ featuredImage: "https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-2\
   -18_18.12.10_-_A_visually_engaging_and_educational_illustration_for_a_blog_po\
   st_titled_AI_Fine-Tuning_for_High_School_Students__GPT-3.5_Turbo_Case_Study._\
   The_image.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED\
-  -PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2F\
-  aws4_request&X-Amz-Date=20241101T184300Z&X-Amz-Expires=3600&X-Amz-Signature=5\
-  a177bfba84097be1997c917a8edcb360cac2276d2241bb0300125bae8c9e2b7&X-Amz-SignedH\
+  -PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2F\
+  aws4_request&X-Amz-Date=20241102T001831Z&X-Amz-Expires=3600&X-Amz-Signature=8\
+  fef1e9773798844564cf58bc74c15c76dced808864df5c1465f437ee22edf3c&X-Amz-SignedH\
   eaders=host&x-id=GetObject"
 series: []
 Slug: "AI-Fine-Tuning-GPT-3.5-Turbo-Case-Study"
@@ -48,11 +48,11 @@ NOTION_METADATA:
         18.12.10_-_A_visually_engaging_and_educational_illustration_for_a_blog_\
         post_titled_AI_Fine-Tuning_for_High_School_Students__GPT-3.5_Turbo_Case\
         _Study._The_image.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-S\
-        ha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101\
-        %2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T183628Z&X-Amz-Expi\
-        res=3600&X-Amz-Signature=8f9074ae6cdd3d1a8349431261f47011c5ccfaadffd98d\
-        d23aaad76a829116f1&X-Amz-SignedHeaders=host&x-id=GetObject"
-      expiry_time: "2024-11-01T19:36:28.070Z"
+        ha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102\
+        %2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001521Z&X-Amz-Expi\
+        res=3600&X-Amz-Signature=474e9c332a891cdd51487155f2539bb6b3313f29381ecd\
+        34e6b7ea6bca6ff67a&X-Amz-SignedHeaders=host&x-id=GetObject"
+      expiry_time: "2024-11-02T01:15:21.506Z"
   icon: null
   parent:
     type: "database_id"
@@ -224,8 +224,8 @@ NOTION_METADATA:
   url: "https://www.notion.so/GPT-gpt-3-5-turbo-1317522eeb2f8152b887cdb7103c6553"
   public_url: "https://datarecipe.notion.site/GPT-gpt-3-5-turbo-1317522eeb2f8152b\
     887cdb7103c6553"
-UPDATE_TIME: "2024-11-01T18:43:07.914Z"
-EXPIRY_TIME: "2024-11-01T19:43:00.411Z"
+UPDATE_TIME: "2024-11-02T00:18:39.600Z"
+EXPIRY_TIME: "2024-11-02T01:18:29.714Z"
 
 ---
 
@@ -242,7 +242,7 @@ EXPIRY_TIME: "2024-11-01T19:43:00.411Z"
 ### 사례 분석
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/ed0222c2-475b-46cc-9066-ab2e9c878142/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184300Z&X-Amz-Expires=3600&X-Amz-Signature=ac3e1c2776cd5105117517dc21a438aebc62874c54e9deae2215037ed943c8f9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/ed0222c2-475b-46cc-9066-ab2e9c878142/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001829Z&X-Amz-Expires=3600&X-Amz-Signature=cdcaa4b013b975e8bfca4be50489ba4f4d9d62a82d9190412c862a86f2f41e7d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 우리가 분석할 'gpt-3.5-turbo-0125' 모델은 이미 다양한 데이터와 상황에서 학습을 마친 상태이며, 이 모델을 기반으로 특정 목표를 달성하기 위한 파인튜닝 작업이 이루어졌습니다. 이 과정에서 새로운 이름 '2024model'을 가진 모델이 생성되었고, 이 모델은 'formatted_dataset_20240318.jsonl'이라는 특정 데이터셋을 사용해 추가 학습을 진행했습니다. 학습은 3번의 에폭을 거쳤는데, 여기서 에폭은 모델이 전체 데이터셋을 한 번 전부 학습하는 과정을 의미합니다.

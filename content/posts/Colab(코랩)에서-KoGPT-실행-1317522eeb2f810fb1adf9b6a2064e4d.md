@@ -161,8 +161,8 @@ NOTION_METADATA:
       rich_text: []
   url: "https://www.notion.so/Colab-KoGPT-1317522eeb2f810fb1adf9b6a2064e4d"
   public_url: "https://datarecipe.notion.site/Colab-KoGPT-1317522eeb2f810fb1adf9b6a2064e4d"
-UPDATE_TIME: "2024-11-01T18:42:11.088Z"
-EXPIRY_TIME: "2024-11-01T19:42:00.730Z"
+UPDATE_TIME: "2024-11-02T00:18:03.374Z"
+EXPIRY_TIME: "2024-11-02T01:17:52.570Z"
 
 ---
 
@@ -231,7 +231,7 @@ print(generated)
 ```
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/721152fd-075e-419f-aead-35c76bb522d7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184201Z&X-Amz-Expires=3600&X-Amz-Signature=c7297d74a5cdd7786e7138208ace8b2ed7124cbf1caa73e4cbd675bee4c2d60c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/721152fd-075e-419f-aead-35c76bb522d7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=6937300cec688726c73799727812bd135f8b317d0239f526c29918adb7118b10&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 > 💡 실행은 되지만, 무료버전에서는 런타임이 종료되어 버린다.
@@ -243,7 +243,7 @@ print(generated)
 [https://velog.io/@t1won/Colab-Colab%EC%9D%84-%EB%A1%9C%EC%BB%AC-%EB%9F%B0%ED%83%80%EC%9E%84%EC%97%90-%EC%97%B0%EA%B2%B0](https://velog.io/@t1won/Colab-Colab%EC%9D%84-%EB%A1%9C%EC%BB%AC-%EB%9F%B0%ED%83%80%EC%9E%84%EC%97%90-%EC%97%B0%EA%B2%B0)
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/3c7bdd51-5f3f-4eea-a87a-7051cbfee61d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184200Z&X-Amz-Expires=3600&X-Amz-Signature=f3ab583c18be8698c23a64a7f7aca8773b2970c75d07a76efded6bf149e4939e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/3c7bdd51-5f3f-4eea-a87a-7051cbfee61d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=130a7fe9a101bc146f88f7a466aa8be82e7d3032bbbf8215510a787cc27204fa&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 주피터 확장 프로그램을 설치
@@ -725,7 +725,7 @@ Could not build wheels for tokenizers, which is required to install pyproject.to
 ```
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/4a2134da-7b1c-461b-a612-7ecc8fb36264/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184200Z&X-Amz-Expires=3600&X-Amz-Signature=86c02c93cb4a509b9d41cc03429f07fd233f951949a7022c832f358b0e47b07d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/4a2134da-7b1c-461b-a612-7ecc8fb36264/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=f44d43271634e309da0b46d57c4f58b769478fb0b3e31de439c956a6d5b5c498&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 러스트(c++ 유사한 것)를 설치하고,
@@ -743,7 +743,7 @@ Could not build wheels for tokenizers, which is required to install pyproject.to
 `pip install transformers~=4.12.0`
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/e285bbc4-3fd5-407e-b434-c818a77e9ad6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184201Z&X-Amz-Expires=3600&X-Amz-Signature=91a6a07771edfb992193c75eccba6ba5a299bb1fadd50099026f425b4665383f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/e285bbc4-3fd5-407e-b434-c818a77e9ad6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=6e6492b73245a7b7deea664007074a2838b8b24a08034b93f5b2c9a3d44e2bad&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 마침내 로컬에서 실행!
@@ -752,13 +752,13 @@ Could not build wheels for tokenizers, which is required to install pyproject.to
 모델을 로딩하고,
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/54396faa-5b6e-4819-a5bf-382b2074ae96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184201Z&X-Amz-Expires=3600&X-Amz-Signature=455a38d8a9fd8469d8a131694e00b9ff8228b5e1f59c4b2ac17c477bde33c82c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/54396faa-5b6e-4819-a5bf-382b2074ae96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=7f5b0731de575e686a93f32d14bfae67536dd643ec116c4dc6186fd6b4d1fb92&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 기사 제목을 넣어봤더니, 과거 기사를 가지고 스스로 작문한 결과를 내었다.
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/3f53d485-447c-49b8-b27a-0d72d2d15bbb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184201Z&X-Amz-Expires=3600&X-Amz-Signature=821da40d90b00cdf7c96514a1bad60878181678c3b106f0d0c70a31c8e02ef5f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/3f53d485-447c-49b8-b27a-0d72d2d15bbb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=c78edf42b29e1f05bce27b34eb548a95043577f1a6c26ebe92e507e588ec1841&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 CPU를 사용해서 작문시키니 100자 작문하는데도 꽤 오랜 시간이 걸린다.
@@ -784,7 +784,7 @@ M1 Pro 맥북에서 Pytorch GPU 가속
 [https://devocean.sk.com/blog/techBoardDetail.do?ID=163957](https://devocean.sk.com/blog/techBoardDetail.do?ID=163957)
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/9ea1d98b-0922-48d6-90ec-73786c98a7c5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184201Z&X-Amz-Expires=3600&X-Amz-Signature=e31f724eb49098a32b2651b493995489ad4c1593ab0a8387e06810381e697cc8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/9ea1d98b-0922-48d6-90ec-73786c98a7c5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=b3101ed26cce96864fed58347b0e2a8570469c09051c9b7e55c3bed515b52998&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 [https://www.youtube.com/watch?v=Zx2MHdRgAIc&ab_channel=DanielBourke](https://www.youtube.com/watch?v=Zx2MHdRgAIc&ab_channel=DanielBourke)
@@ -796,7 +796,7 @@ M1 Pro 맥북에서 Pytorch GPU 가속
 실행하면 아래와 같은 에러가…
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/972f7dda-b106-4602-9005-13c1dd19e9a7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184201Z&X-Amz-Expires=3600&X-Amz-Signature=f9fc4f11ab7357129462b0801b87bcf62dc386d1555c1a61ffb54e463e6e5ee3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/972f7dda-b106-4602-9005-13c1dd19e9a7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001752Z&X-Amz-Expires=3600&X-Amz-Signature=dd12351837b8b77e6d71bd69000e430543ed0457df85d5752aa19d31f6099277&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 topk on mps for k ≤16을 해결 필요

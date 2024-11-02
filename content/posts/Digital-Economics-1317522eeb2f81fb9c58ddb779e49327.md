@@ -149,23 +149,23 @@ NOTION_METADATA:
   url: "https://www.notion.so/Digital-Economics-1317522eeb2f81fb9c58ddb779e49327"
   public_url: "https://datarecipe.notion.site/Digital-Economics-1317522eeb2f81fb9\
     c58ddb779e49327"
-UPDATE_TIME: "2024-11-01T18:38:32.457Z"
-EXPIRY_TIME: "2024-11-01T19:38:23.852Z"
+UPDATE_TIME: "2024-11-02T00:16:08.171Z"
+EXPIRY_TIME: "2024-11-02T01:15:57.494Z"
 
 ---
 
 
-[Digital_Economics.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/6659b78f-7a3d-4ab7-b2b6-165c7565f893/Digital_Economics.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T183823Z&X-Amz-Expires=3600&X-Amz-Signature=afce6e7c6ed168386da695e4b26a096cafb75aebe24331b9d93acddd32c1257b&X-Amz-SignedHeaders=host&x-id=GetObject)
+[Digital_Economics.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/6659b78f-7a3d-4ab7-b2b6-165c7565f893/Digital_Economics.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001557Z&X-Amz-Expires=3600&X-Amz-Signature=bdb957d7c2927899bc67930bd4aa488c21d309c105529d212def7f9cc627d64c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/20428687-0015-48ab-ba43-604df015a3e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T183823Z&X-Amz-Expires=3600&X-Amz-Signature=7bd43de8c20a342868aad5ed7df0c28ae1d7b13387a67c796e4cfa86b3e3190f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/20428687-0015-48ab-ba43-604df015a3e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001557Z&X-Amz-Expires=3600&X-Amz-Signature=5680c801fa99fecb5ab89c9533bb790bef943e05509f0877cdd2127124f44069&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 [http://kiri.or.kr/report/downloadFile.do?docId=1195](http://kiri.or.kr/report/downloadFile.do?docId=1195)
 
 
-[KIRI_20170915_134837.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/c2c3fe16-7f88-4f66-94d1-c14a25f80001/KIRI_20170915_134837.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T183823Z&X-Amz-Expires=3600&X-Amz-Signature=1cc56e4d7e6f8909a3ba9aa9502cb0b991aae42515ab832014628af3fec8edca&X-Amz-SignedHeaders=host&x-id=GetObject)
+[KIRI_20170915_134837.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/c2c3fe16-7f88-4f66-94d1-c14a25f80001/KIRI_20170915_134837.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001557Z&X-Amz-Expires=3600&X-Amz-Signature=50382dc4eb5c5b5cbc6b35a918c83549f56009ee4b4825b662dfd911d52a832c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-[KB지식비타민_20171115_디지털 경제학의 이해 비용감소와 경제행위의 변화.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/0a1a1a0e-43cd-44f1-95aa-58bb6a22893d/KB_20171115______.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T183823Z&X-Amz-Expires=3600&X-Amz-Signature=6aebc420905185a8c724965c6340ecae80d30c1a0b42df658e6342e393c9ce14&X-Amz-SignedHeaders=host&x-id=GetObject)
+[KB지식비타민_20171115_디지털 경제학의 이해 비용감소와 경제행위의 변화.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/0a1a1a0e-43cd-44f1-95aa-58bb6a22893d/KB_20171115______.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001557Z&X-Amz-Expires=3600&X-Amz-Signature=1acc58293f17caff698b1a3ff11e5675c3efc2f6eeb00853193fe4cadb41a4f6&X-Amz-SignedHeaders=host&x-id=GetObject)
 

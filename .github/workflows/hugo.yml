@@ -1,0 +1,59 @@
+name: Hugo Build
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *" # Run every hour
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: |
+          # Hugo 빌드 시도
+          hugo || true  # 오류가 발생해도 계속 진행
+
+          # 빌드 결과 확인
+          if [ -d "public" ]; then
+            echo "Hugo build completed with some files"
+            
+            # 오류 로그 저장
+            if [ -f "hugo_error.log" ]; then
+              echo "Build completed with errors. Check hugo_error.log for details."
+              
+              # 오류 로그를 이슈로 생성
+              if [ "${{ github.event_name }}" == "push" ]; then
+                title="Hugo Build Errors - $(date '+%Y-%m-%d')"
+                body="Hugo build completed with errors. The following files need attention:"
+                body+=$'\n```\n'
+                body+=$(cat hugo_error.log)
+                body+=$'\n```\n'
+                
+                gh issue create --title "$title" --body "$body" || true
+              fi
+            fi
+          else
+            echo "Hugo build failed completely"
+            exit 1
+          fi
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

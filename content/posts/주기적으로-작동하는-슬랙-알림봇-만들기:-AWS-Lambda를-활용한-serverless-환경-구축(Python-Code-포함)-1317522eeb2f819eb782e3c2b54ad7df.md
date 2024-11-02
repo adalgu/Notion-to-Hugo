@@ -6,9 +6,9 @@ draft: false
 featuredImage: "https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-2\
   73a-443d-bf89-42827b5b6876/22c1cb56-f547-4bdc-a432-6cbbb64b4289/photo-1631427\
   962232-803d4f30c64f-min.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-S\
-  ha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-\
-  west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184748Z&X-Amz-Expires=3600&X-A\
-  mz-Signature=7e11f9db20113ab8598940d5adb02059e54ddbfc6d8300f2812dcdc25afbff17\
+  ha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-\
+  west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002104Z&X-Amz-Expires=3600&X-A\
+  mz-Signature=5580cce5e308d2a46236a1b0be1e2f26fea6cb5e280851273534fa8b5814583f\
   &X-Amz-SignedHeaders=host&x-id=GetObject"
 series: []
 Slug: "serverless-gpt-slack"
@@ -39,10 +39,10 @@ NOTION_METADATA:
         f89-42827b5b6876/22c1cb56-f547-4bdc-a432-6cbbb64b4289/photo-16314279622\
         32-803d4f30c64f-min.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content\
         -Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F202411\
-        01%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T183628Z&X-Amz-Ex\
-        pires=3600&X-Amz-Signature=4ccf57e7ee27d85619bc51249c955b1fdfc2453ee217\
-        d0a98dd30fc284c34bf0&X-Amz-SignedHeaders=host&x-id=GetObject"
-      expiry_time: "2024-11-01T19:36:28.203Z"
+        02%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T001521Z&X-Amz-Ex\
+        pires=3600&X-Amz-Signature=edf3ad7cec15b2fcdd282d6306f9476ab57fdf640915\
+        35dee98dc0d04762c590&X-Amz-SignedHeaders=host&x-id=GetObject"
+      expiry_time: "2024-11-02T01:15:21.686Z"
   icon: null
   parent:
     type: "database_id"
@@ -183,8 +183,8 @@ NOTION_METADATA:
     782e3c2b54ad7df"
   public_url: "https://datarecipe.notion.site/AWS-Lambda-serverless-Python-Code-1\
     317522eeb2f819eb782e3c2b54ad7df"
-UPDATE_TIME: "2024-11-01T18:47:57.513Z"
-EXPIRY_TIME: "2024-11-01T19:47:47.316Z"
+UPDATE_TIME: "2024-11-02T00:21:14.592Z"
+EXPIRY_TIME: "2024-11-02T01:21:03.630Z"
 
 ---
 
@@ -259,7 +259,7 @@ AWS의 EventBridge(CloudWatch Events)를 설정하여 알림봇이 주기적으�
 예를 들어, 매주 목요일 오전 10시에 알림봇이 작동하도록 설정하려면, Cron 표현식을 `**cron(0 1 ? * 5 *)**`로 설정하면 됩니다. 단, 이때 시간은 GMT 기준으로 설정해야 하므로, 로컬 시간에 따라 적절히 조절해야 합니다. 서울 시간은 GMT+9이므로, 오전 10시를 GMT로 표현하려면 10에서 9를 빼서 1로 설정합니다.
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/b915b615-5b1a-4d52-a3cd-be05d613964f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184747Z&X-Amz-Expires=3600&X-Amz-Signature=22b15c898cfee62352d568612b02f923c770dba45680e2c7925b5f70cca3c342&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/b915b615-5b1a-4d52-a3cd-be05d613964f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002103Z&X-Amz-Expires=3600&X-Amz-Signature=2299e868626e93075742e290242054f595c03763b6265018f3d9a558da756830&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 5. 응용하기

@@ -154,8 +154,8 @@ NOTION_METADATA:
       rich_text: []
   url: "https://www.notion.so/Notion-feat-1317522eeb2f8117beb6e0166da41234"
   public_url: "https://datarecipe.notion.site/Notion-feat-1317522eeb2f8117beb6e0166da41234"
-UPDATE_TIME: "2024-11-01T18:48:18.610Z"
-EXPIRY_TIME: "2024-11-01T19:48:07.023Z"
+UPDATE_TIME: "2024-11-02T00:21:28.174Z"
+EXPIRY_TIME: "2024-11-02T01:21:15.135Z"
 
 ---
 
@@ -172,9 +172,9 @@ EXPIRY_TIME: "2024-11-01T19:48:07.023Z"
 - 현재 페이지, [oopy.gunn.kim](https://oopy.gunn.kim/)(아래 그림 왼쪽)으로 접속하면 하단에 배너가 뜨는 것을 볼 수 있다.
 	- (참고: ~21년 9월 12일 oopy 사용 종료 예정, 이후에는 클라우드플레어로 연결합니다.)
 
-![동일한 노션 페이지를 우피로 접속하면 애드센스 작동](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/658949b9-509f-49a9-aec0-bd44be464b8c/KakaoTalk_Photo_2021-09-06-03-25-09_001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184808Z&X-Amz-Expires=3600&X-Amz-Signature=13fb2e8a40df86c1869f25ecdb54e52623b39e2f7fe034c52b207d05d3e90054&X-Amz-SignedHeaders=host&x-id=GetObject)
+![동일한 노션 페이지를 우피로 접속하면 애드센스 작동](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/658949b9-509f-49a9-aec0-bd44be464b8c/KakaoTalk_Photo_2021-09-06-03-25-09_001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002117Z&X-Amz-Expires=3600&X-Amz-Signature=e8dc0c2a93865a04fd6dc457eaf293bdd703e0b532c89162456a2544212fb7be&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![원래 노션 페이지 주소로 접속하면 광고 안뜸](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/1fff7b37-96fe-4ac8-8eca-da21cc0db58c/KakaoTalk_Photo_2021-09-06-03-25-10_002.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184808Z&X-Amz-Expires=3600&X-Amz-Signature=837f2ce21a14ca22c9112b51bfc4c2b04313b5f51e17787fe3b18ac1239c7d4f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![원래 노션 페이지 주소로 접속하면 광고 안뜸](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/1fff7b37-96fe-4ac8-8eca-da21cc0db58c/KakaoTalk_Photo_2021-09-06-03-25-10_002.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002117Z&X-Amz-Expires=3600&X-Amz-Signature=7d2eda0e8e4a55bf03c19590eb161d732134546b6eac38ee2dcf18c3fbb155d9&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 우피에서 구글 애드센스가 가능하다는 점은 두가지 힌트를 암시한다.
@@ -195,7 +195,7 @@ EXPIRY_TIME: "2024-11-01T19:48:07.023Z"
 [https://www.facebook.com/groups/notion.so/permalink/1040808083047842/](https://www.facebook.com/groups/notion.so/permalink/1040808083047842/)
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/9cdd736c-cfd8-4eb8-919b-a905146f2a03/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184807Z&X-Amz-Expires=3600&X-Amz-Signature=63408e34115015754edebce3b09b94ea49b19d405e84504d079855f10ff8b556&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/9cdd736c-cfd8-4eb8-919b-a905146f2a03/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002115Z&X-Amz-Expires=3600&X-Amz-Signature=9ed19321bb6ac9e2b11b594c9f64ff957f2050055baea7811389340b49883ca5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 결론적으로, 
@@ -218,13 +218,13 @@ EXPIRY_TIME: "2024-11-01T19:48:07.023Z"
 1. Cloudflare App을 이용하여 ads.txt 추가한다.(Quick을 이용하는 방식)
 	1. [https://community.cloudflare.com/t/how-to-set-up-ads-txt-file-in-cloudflare/123456/8?fbclid=IwAR0H71RaleuQegnxU82NdSr0twWzfCoEFsTUnyyfLuUDN-Qr21EVPesbrsE](https://community.cloudflare.com/t/how-to-set-up-ads-txt-file-in-cloudflare/123456/8?fbclid=IwAR0H71RaleuQegnxU82NdSr0twWzfCoEFsTUnyyfLuUDN-Qr21EVPesbrsE)
 
-	![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/8f1a3924-e015-41f1-b546-8c6dab9386b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184809Z&X-Amz-Expires=3600&X-Amz-Signature=d670e918f98671946b07c4b580f2bb72ed53e10ca55b808dadbd75d7fb5acacb&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/8f1a3924-e015-41f1-b546-8c6dab9386b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002118Z&X-Amz-Expires=3600&X-Amz-Signature=f197be93e782b130b11c30ba2eba20add2a76f117766815b888668e4d02dfc91&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 	b. 클라우드플레어 App에서 퀵을 설치한 모습
 
 
-	![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/0e91cd1e-3200-4d65-b475-35e7c844443c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T184809Z&X-Amz-Expires=3600&X-Amz-Signature=6754aa28e0ebdb5caa9e73240b7b1202118b86954063600b0581fc5f217fa839&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![](https://prod-files-secure.s3.us-west-2.amazonaws.com/94f51666-273a-443d-bf89-42827b5b6876/0e91cd1e-3200-4d65-b475-35e7c844443c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241102T002118Z&X-Amz-Expires=3600&X-Amz-Signature=1404adfdaf09efa8dbe5c80ec3464cee86f30bb53124e3029b7b93d3e51b0c98&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 여기까지 다 수행한 상황이나 아직 목표한 [https://notion.gunn.kim](https://notion.gunn.kim/) 에 뜨지 않는 상황이다.
